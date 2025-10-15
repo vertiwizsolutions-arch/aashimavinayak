@@ -1,0 +1,46 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #FFFFFF;
+  color: #1F2937;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #F9FAFB;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2563EB;
+}
+
+h2 {
+  color: #2563EB;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: #F3F4F6;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #F9FAFB;
+  color: #6B7280;
+}
